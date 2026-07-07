@@ -18,10 +18,10 @@
         "php": "^8.3",
         "ext-mbstring": "*",
         "ext-json": "*",
-        "illuminate/support": "^11.0 || ^12.0 || ^13.0",
-        "illuminate/view": "^11.0 || ^12.0 || ^13.0",
-        "illuminate/container": "^11.0 || ^12.0 || ^13.0",
-        "illuminate/config": "^11.0 || ^12.0 || ^13.0"
+        "illuminate/support": "^12.0 || ^13.0",
+        "illuminate/view": "^12.0 || ^13.0",
+        "illuminate/container": "^12.0 || ^13.0",
+        "illuminate/config": "^12.0 || ^13.0"
     },
     "require-dev": {
         "laravel/laravel": "^12.0 || ^13.0",
