@@ -62,13 +62,5 @@
     "support": {
         "issues": "https://github.com/avto-dev/back2front-laravel/issues",
         "source": "https://github.com/avto-dev/back2front-laravel"
-    },
-    "config": {
-        "policy": {
-            "advisories": {
-                "block": false,
-                "audit": "report"
-            }
-        }
     }
 }
