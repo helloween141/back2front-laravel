@@ -18,17 +18,16 @@
         "php": "^8.3",
         "ext-mbstring": "*",
         "ext-json": "*",
-        "illuminate/support": "^12.0 || ^13.0",
-        "illuminate/view": "^12.0 || ^13.0",
-        "illuminate/container": "^12.0 || ^13.0",
-        "illuminate/config": "^12.0 || ^13.0"
+        "illuminate/support": "^11.0 || ^12.0 || ^13.0",
+        "illuminate/view": "^11.0 || ^12.0 || ^13.0",
+        "illuminate/container": "^11.0 || ^12.0 || ^13.0",
+        "illuminate/config": "^11.0 || ^12.0 || ^13.0"
     },
     "require-dev": {
-        "laravel/laravel": "^12.0 || ^13.0",
-        "laravel/framework": "^12.0 || ^13.0",
+        "laravel/laravel": "^11.0 || ^12.0 || ^13.0",
         "phpstan/phpstan": "2.1.54",
         "mockery/mockery": "^1.6.10",
-        "phpunit/phpunit": "^10.5"
+        "phpunit/phpunit": "^10.5.35"
     },
     "autoload": {
         "psr-4": {
@@ -63,5 +62,13 @@
     "support": {
         "issues": "https://github.com/avto-dev/back2front-laravel/issues",
         "source": "https://github.com/avto-dev/back2front-laravel"
+    },
+    "config": {
+        "policy": {
+            "advisories": {
+                "block": false,
+                "audit": "report"
+            }
+        }
     }
 }
